@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>So pastry By Tarah</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBueG0KNSoyOKCDF7tukrp_CcbLcYOhgnM",
+    authDomain: "so-pastry-by-tarah.firebaseapp.com",
+    projectId: "so-pastry-by-tarah",
+    storageBucket: "so-pastry-by-tarah.appspot.com",
+    messagingSenderId: "873100092563",
+    appId: "1:873100092563:web:b59bcfee390787bdfd1966",
+    measurementId: "G-03Z69DD056"
+};
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+
+  <div class="body-container">
+  <div class="wrapper">
+    <header>Login</header>
+    <form action="#">
+      <div class="field email">
+        <div class="input-area">
+          <input type="text" placeholder="Email Address">
+          <i class="icon fas fa-envelope"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Email can't be blank</div>
+      </div>
+      <div class="field password">
+        <div class="input-area">
+          <input type="password" placeholder="Password">
+          <i class="icon fas fa-lock"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Password can't be blank</div>
+      </div>
+      <div class="pass-txt"><a href="#">Forgot password?</a></div>
+      <input type="submit" value="Login">
+    </form>
+    <div class="sign-txt">Not yet member? <a href="SignupForm.php">Signup now</a></div>
+  </div>
+  </div>
+  <script src="main.js"></script>
+
+  <!--Footer-->
+    <blockquote class="blockquote text-center" style="background-color: #183461; margin: 0%; padding: 17px;">
+      <p class="mb-3" style="color: white;">© Copyright <strong>So Pastry By Tarah</strong>, All Rights Reserved</p>
+      <footer class="blockquote-footer" style="color: white;">Designed by Team Baked Goods</footer>
+    </blockquote>
+</body>
+</html>

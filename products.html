@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So Pastry by Tarah</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header{
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        ul{
+            float: right;
+            list-style-type: none;
+            margin-top: 25px;
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        }
+        ul li a:hover{
+            background-color: black;
+            color: white;
+        }
+        ul li.active a{
+            background-color: black;
+            color: white;
+        }
+        .logo h2{
+            float: left;
+            width: 300px;
+            height: auto;
+            margin-top: 10px;
+        }
+        .logo h2 a{
+            text-decoration: none;
+            color: white;
+        }
+        .main{
+            max-width: 1200px;
+            margin: auto;
+        }
+        .title{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .title h1{
+            color: black;
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <h2><a href="home.html">So Pastry by Tarah</a></h2>
+            </div>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li class="active"><a href="products.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>
+                PRODUCT
+            </h1>
+        </div>
+    </header>
+</body>
+</html>
